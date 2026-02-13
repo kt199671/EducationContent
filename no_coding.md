@@ -1,11 +1,11 @@
-### @hideIteration true 
+### @hideIteration true
 ### @flyoutOnly 1
 ### @explicitHints 1
 
 
-# No code is required for this activity. 
+# この かつどうでは コードは ひつよう ありません。
 ## Step 1
-No code is required for this activity. 
+この かつどうでは コードは ひつよう ありません。
 
 ```template
 player.onChat("run", function () {
