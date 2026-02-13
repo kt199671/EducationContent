@@ -1,16 +1,16 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration true 
+### @hideIteration true
 ### @explicitHints 1
 
 
-# Locate the Sample! 
+# サンプルを みつけよう！
 
 ## Step 1
-**While** the Agent **inspects the block down** and does **not** find **blue ice**, program the Agent to **destroy** and **move down**. When the Agent locates the **blue ice**, it needs to **destroy down** and **collect** the sample. 
+エージェントが **したの ブロックを しらべて** **あおい こおり** を **みつけない** あいだ、**こわして** **したに うごく** プログラムを つくりましょう。エージェントが **あおい こおり** を みつけたら、**したを こわして** サンプルを **あつめ** ましょう。
 
-```ghost 
+```ghost
 player.onChat("ice", function () {
     while (agent.inspect(AgentInspection.Block, DOWN) != ICE) {
         agent.destroy(DOWN)
@@ -18,7 +18,8 @@ player.onChat("ice", function () {
     }
     agent.destroy(DOWN)
     agent.collectAll()
-    
+
 })
 ```
+
 

@@ -1,14 +1,14 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration true 
+### @hideIteration true
 ### @explicitHints 1
 
 
-# Iron
+# てつ
 
 ## Step 1
-While the Agent **inspects the block down** and this block is not **iron ore**, it needs to **move forward**. If the Agent **detects a block forward**, then it needs to **destroy forward**. When the Agent locates iron, program it to **collect** it. Note that in order to collect a block, Agent needs to destroy it first. 
+エージェントが **したの ブロックを しらべて** **てっこうせき** じゃない あいだ、**まえに すすむ** ひつようが あります。エージェントが **まえに ブロックを かんちしたら**、**まえを こわす** ひつようが あります。エージェントが てつを みつけたら、**あつめる** プログラムを つくりましょう。ブロックを あつめるには、まず こわす ひつようが あります。
 
 ```ghost
 player.onChat("4", function () {
@@ -18,7 +18,7 @@ player.onChat("4", function () {
         }
         agent.move(FORWARD, 1)
     }
-    player.say("Found the iron ore!")
+    player.say("てっこうせき はっけん！")
     agent.destroy(DOWN)
     agent.collectAll()
 })

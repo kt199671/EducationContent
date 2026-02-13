@@ -1,14 +1,14 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration true 
+### @hideIteration true
 ### @explicitHints 1
 
 
-# Holodeck 
+# ホロデッキ
 
 ## Step 1
-Use this holodeck to sharpen your skills! 
+この ホロデッキで スキルを みがこう！
 
 ```ghost
 player.onChat("3", function () {

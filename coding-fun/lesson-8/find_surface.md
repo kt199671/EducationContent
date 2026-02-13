@@ -1,14 +1,14 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration true 
+### @hideIteration true
 ### @explicitHints 1
 
 
-# Reach magma
+# マグマを みつけよう
 
 ## Step 1
-Program the Agent to **move forward**. While the Agent **inspects** block **down** and it is **not magma**, the Agent needs to **move down**. 
+エージェントを **まえに うごかす** プログラムを つくりましょう。エージェントが **したの ブロックを しらべて** **マグマじゃない** あいだ、エージェントは **したに うごく** ひつようが あります。
 
 
 ```ghost
